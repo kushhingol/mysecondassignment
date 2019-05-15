@@ -100,10 +100,10 @@ else{
           
           while ($row = mysqli_fetch_assoc($result)){
             if($row["t_status"]=="p"){
-              echo "<li value='".$row["title"]."' class='mylist'>".$row["title"]."<button class='close' value='".$row["title"]."' onclick='delfunc(this)' >×</button><button class='edit_task' onclick='editfunc(this)' value='".$row["title"]."' >🖉</button><button class='complete' value='".$row["title"]."' onclick='comfunc(this)'>✓</button></li>";
+              echo "<li value='".$row["title"]."' class='mylist'>".$row["title"]."<button class='close' value='".$row["title"]."' onclick='delfunc(this)' >×</button><button class='edit_task' onclick='editfunc(this)' value='".$row["title"]."' >&#9999</button><button class='complete' value='".$row["title"]."' onclick='comfunc(this)'>✓</button></li>";
             }
             else{
-              echo "<li class='checked' value='".$row["title"]."' class='mylist'>".$row["title"]."<button class='close' value='".$row["title"]."' onclick='delfunc(this)'>×</button><button class='edit_task' onclick='editfunc(this)' value='".$row["title"]."'>🖉</button><button class='complete' value='".$row["title"]."' onclick='comfunc(this)'>✓</button></li>";
+              echo "<li class='checked' value='".$row["title"]."' class='mylist'>".$row["title"]."<button class='close' value='".$row["title"]."' onclick='delfunc(this)'>×</button><button class='edit_task' onclick='editfunc(this)' value='".$row["title"]."'>&#9999</button><button class='complete' value='".$row["title"]."' onclick='comfunc(this)'>✓</button></li>";
             }
 
             $_SESSION['u_id'] = $my_user_id;
