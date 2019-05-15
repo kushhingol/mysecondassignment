@@ -11,7 +11,7 @@ if (isset($_SESSION['u_id']))
   			  VALUES('$my_u_id', '$my_task', '$s_date', 'p')";
 
   	$result = mysqli_query($db, $query);
-  	echo "<li value='".$my_task."' class='mylist'>".$my_task."<button class='close' value='".$my_task."' onclick='delfunc(this)'>×</button><button class='edit_task' onclick='editfunc(this)' value='".$my_task."'>&#9999</button><button class='complete' value='".$my_task."' onclick='comfunc(this)'>✓</button></li>";
+  	echo "<li value='".$my_task."' class='mylist'>".$my_task."<button class='close' value='".$my_task."' onclick='delfunc(this)'>×</button><button class='edit_task' onclick='editfunc(this)' value='".$my_task."'>🖉</button><button class='complete' value='".$my_task."' onclick='comfunc(this)'>✓</button></li>";
   }
 
 ?>
