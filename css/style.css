@@ -1,0 +1,461 @@
+body{
+  overflow: visible;
+}
+.head{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.25);
+}
+
+.myhead{
+  font-size: 2.0em;
+  margin-bottom: 10%;
+
+}
+
+.mli{
+  margin-bottom: 15%;
+}
+
+.back{
+  color: grey;
+  text-decoration: none;
+  font-size: 1.2em;
+
+}
+
+*:focus {outline:none !important}
+
+.button1 {
+	width: 100%;
+	background-color:#2DB684;
+	color: white;
+	border: none;
+	font-family: arial;
+	padding: 10px 20px;
+	text-align: center;
+	font-size: 1.1em;
+	cursor: pointer;
+	font-style: bold;
+	max-width: 50%;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.19);
+	border-radius: 5px;
+	margin-right: 7%;
+	margin-left: 25%;
+}
+.button2 {
+	text-decoration: none;
+	width: 100%;
+	background-color:#ffffff;
+	color: black;
+	border: none;
+	font-family: arial;
+	padding: 10px 20px;
+	text-align: center;
+	font-size: 1.1em;
+	cursor: pointer;
+	font-style: bold;
+	max-width: 50%;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.19);
+	border-radius: 5px;
+	margin-left: 25%;
+}
+
+.button1:hover {
+	background-color: #223F7E;
+	text-decoration: none;
+	color: white;
+}
+
+.button2:hover {
+	background-color: #223F7E;
+	text-decoration: none;
+	color: white;
+}
+
+.r1{
+	padding-top: 10%;
+}
+
+
+/*for signup and login button styling*/
+::selection {
+  background-color: #b5e2e7;
+}
+
+::-moz-selection {
+  background-color: #8ac7d8;
+}
+
+#signup {
+  height: 100%;
+  width: 100%;
+}
+
+#logbox {
+  padding: 10px;
+  margin: 50px auto;
+  width: 340px;
+  height: 100%;
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+  text-align: center;
+  font-size: 175%;
+  color: #757575;
+  font-weight: 300;
+}
+
+h1 {
+  font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+#e_task {
+  width: 75%;
+  height: 50px;
+  display: block;
+  margin: 0 auto 15px;
+  padding: 0 15px;
+  border: none;
+  border-bottom: 2px solid #ebebeb;
+}
+#e_task:focus {
+  outline: none;
+  border-bottom-color: #3CC !important;
+}
+#e_task:hover {
+  border-bottom-color: #dcdcdc;
+}
+#e_task:invalid {
+  box-shadow: none;
+}
+
+
+#ed_task {
+  width: 65%;
+  height: 50px;
+  display: inline-block;
+  margin: 0 auto 15px;
+  padding: 0 15px;
+  border: none;
+  border-bottom: 2px solid #ebebeb;
+}
+#ed_task:focus {
+  outline: none;
+  border-bottom-color: #3CC !important;
+}
+#ed_task:hover {
+  border-bottom-color: #dcdcdc;
+}
+#ed_task:invalid {
+  box-shadow: none;
+}
+
+
+
+
+.pass:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px white inset;
+}
+
+.inputButton {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  display: block;
+  margin: 30px auto 30px;
+  color: white;
+  background-color: #2DB684;
+  border: none;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 5px;
+}
+.inputButton:hover {
+  top: 2px;
+  background: #223F7E;
+  -webkit-box-shadow: 0 3px 0 #223F7E;
+  -moz-box-shadow: 0 3px 0 #223F7E;
+  box-shadow: 0 3px 0 #223F7E;
+  border-radius: 5px;
+}
+.inputButton:active {
+  top: 5px;
+  box-shadow: none;
+}
+.inputButton:focus {
+  outline: none;
+}
+
+.pass{
+  border: none;
+  outline: none;
+  width: 100%;
+  border-bottom: 2px solid grey;
+}
+
+.pass:focus {
+  outline: none;
+  border-bottom: 2px solid #2DB684;
+}
+
+.pass::placeholder {  
+                  
+                /* Firefox, Chrome, Opera */ 
+                text-align: center; 
+            } 
+.pass::-ms-input-placeholder {  
+                  
+                /* Microsoft Edge */ 
+                text-align: center; 
+} 
+
+.c1 {
+	padding: -5%;
+}
+
+.b1{
+	padding-bottom: 10%;
+}
+
+
+.enter_task{
+  width:100%;
+  max-width: 65%;
+  margin-right: 5%;
+  border: none;
+  border-bottom: 2px solid #2DB684;
+  outline: none;
+
+}
+.enter_task:focus{
+  outline: none;
+  border-bottom-color: #223F7E !important;
+}
+.enter_task:hover{
+  border-bottom-color: black;
+}
+
+#task{
+    width: 100%;
+    max-width: 20%;
+    font-size: 15px;
+    background: #2DB684;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    box-shadow:  0 8px 16px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.15);
+}
+
+#task:hover{
+  background: #223F7E;
+  border-radius: 5px;
+  color: white;
+
+}
+
+#edit_t{
+    width: 100%;
+    max-width: 20%;
+    font-size: 15px;
+    background: #2DB684;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    box-shadow:  0 8px 16px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.15);
+}
+
+#edit_t:hover{
+  background: #223F7E;
+  border-radius: 5px;
+  color: white;
+
+}
+
+
+
+
+#logout{
+    width: 100%;
+    margin-top: 5%;
+    max-width: 35%;
+    font-size: 20px;
+    display: inline;
+    background: #2DB684;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    box-shadow:  0 8px 16px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.15);
+}
+
+#logout:hover{
+  background: #223F7E;
+  border-radius: 5px;
+  color: white;
+
+}
+
+
+
+
+#head3{
+  margin-top: 12%;
+
+}
+hr {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  background-color: black;
+}
+
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the list items */
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+  
+  /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+/* Darker background-color on hover */
+ul li:hover {
+  background: #ddd;
+}
+
+/* When clicked on, add a background color and strike out text */
+ul li.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+
+/* Style the close button */
+.close {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline: none;
+  padding: 12px 16px;
+}
+
+.close:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.complete {
+  position: absolute;
+  right: 5%;
+  top: 0;
+  padding: 12px 16px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+.complete:hover {
+  background-color: green;
+  color: white;
+}
+
+.edit_task {
+  position: absolute;
+  right: 10%;
+  top: 0;
+  padding: 12px 16px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}
+
+.edit_task:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Style the header */
+.header {
+  background-color: #f44336;
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+}
+
+/* Clear floats after the header */
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the input */
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+
+
+
+
+@media only screen and (min-width: 1200px)
+{
+	body{
+		overflow: visible;
+	}
+}
+
+@media only screen and (max-width: 425px)
+{
+  body{
+    overflow: visible;
+  }
+  #task{
+    max-width: 5%;
+  }
+}
